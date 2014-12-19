@@ -2063,11 +2063,10 @@ body.contentpane a:hover {
 }
 /* Overrides by criztovyl */
 /* Gray box around code blocks */
-code {
+pre {
     background-color: lightgray;
     border-radius: 5px;
     font-family: monospace;
-    white-space: nowrap;
 }
 
 /* Round edges (Top) */
