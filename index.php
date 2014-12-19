@@ -24,6 +24,10 @@ $RightMenuOn = ($this->countModules('position-6') or $this->countModules('positi
 
 $app = JFactory::getApplication();
 $sitename = $app->getCfg('sitename');
+$copyrightSign = $app->getCfg('copyrightSign');
+if(!isset($copyrightSign)){
+    $copyrightSign="&copy";
+}
 
 $logopath = $this->baseurl . '/templates/' . $this->template . '/images/logo.gif';
 $logo = $this->params->get('logo', $logopath);
@@ -115,7 +119,7 @@ if ($socialicon5 > 0) {
 	<?php if (($this->countModules('position-15') && $slides == 2) || ($slides == 1)): ?>
 	<!-- Slides Scripts -->
 	<?php if ($loadjquery): ?>
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/jquery.min.js"></script>
 	<?php endif; ?>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/slides.js"></script>
 	<script type="text/javascript">
@@ -320,7 +324,8 @@ if ($socialicon5 > 0) {
 
 
 
-<div id="copyright">&copy;<?php echo date('Y'); ?> <?php echo $sitename; ?> | Designed by Hurricane Media<br/>
+<div id="copyright"><?php echo $copyrightSign; ?> <?php echo $sitename; ?> (<?php echo date('Y'); ?>) | Designed by Hurricane Media.<br/>
+Some Modifications by <a target="_blank" href="https://github.com/criztovyl/jaxstorm-blue">criztovyl</a>.<br/>
 
 
 

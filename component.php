@@ -14,7 +14,6 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
-	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
 </head>
 <body class="contentpane">
 	<div id="all">
