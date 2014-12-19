@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>jaxstorm-blue</name>
+	<creationDate>2013-06-25</creationDate>
+	<author>Hurricane Media</author>
+	<authorEmail>info@hurricanemedia.net</authorEmail>
+	<authorUrl>http://www.hurricanemedia.net</authorUrl>
+	<copyright>HurricaneMedia 2011-2013</copyright>
+	<license>GNU/GPL</license>
+	<version>1.8</version>
+	<description>
+		<![CDATA[<div style="text-align:left"><span style="font-weight:bold;font-size:1.1em;color:#000">--- JaxStorm-Blue HM03J ---<br /><hr style="border:0;color:rgb(226,226,226);background-color:rgb(226,226,226);height:1px" />Template for Joomla designed by Hurricane Media<br /><span style="color: #e70000">Get the lastest version of this template, visit <a href="http://www.hurricanemedia.net" target="_blank">www.hurricanemedia.net</a></span>.<br /><br />Position Layout:<br /></span>
+		<br />
+		<div style="border: 1px solid #c3c3c3;width:340px;overflow:auto;font-weight:normal;font-size:11px;background-color:#f8f8f8">
+
+			<div style="float:right;width:200px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;text-align:right">position-13 (top navigation)</div>	
+			<div style="float:right;clear:both;width:240px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6">position-1 (topmenu)</div>
+			<div style="clear:both;width:328px;height:60px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6">position-15 (slideshow)</div>
+			<div style="clear:both;width:328px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6">position-2 (breadcrumbs)</div>
+
+			<div style="float:left;width:70px;margin:0;padding:0">
+
+				<div style="float:left;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:60px;height:30px">position-7</div>
+				<div style="float:left;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:60px;height:30px">position-4</div>
+				<div style="float:left;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:60px;height:30px">position-5</div>
+
+			</div>
+
+			<div style="float:left;width:198px;margin:0;padding:0">
+				<div style="float:left;width:198px;margin:0;padding:0">
+					<div style="border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:188px;height:16px">position-12</div>
+				</div>
+				<div style="float:left;width:198px;margin:0;padding:0">
+					<div style="border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:188px;height:160px">content (message/component)</div>
+				</div>
+			</div>
+
+			<div style="float:right;width:70px;margin:0;padding:0">
+
+				<div style="float:right;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:60px;height:30px">position-6</div>
+				<div style="float:right;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:60px;height:30px">position-8</div>
+				<div style="float:right;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6;width:60px;height:30px">position-3</div>
+
+			</div>
+
+			<div style="clear:both;width:328px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6">position-14 (footer)</div>
+			
+			<div style="float:left;;width:101px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6">position-9 (box 1)</div>
+			<div style="float:left;;width:101px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6">position-10 (box 2)</div>
+			<div style="float:left;;width:101px;border: 1px solid #c3c3c3;margin:2px;padding:3px;background-color:#e6e6e6">position-11 (box 3)</div>
+
+			</div>
+		</div>]]>
+	</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>		
+		<folder>language</folder>		
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-15</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_jaxstorm-blue.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_jaxstorm-blue.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+
+				<field type="spacer" name="slidespacer1" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESPACER1_LABEL" />
+
+				<field name="logoimage" type="list" default="1" label="TPL_JAXSTORM-BLUE_FIELD_LOGOIMAGE_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_LOGOIMAGE_DESC">
+				    <option value="1">Show</option>
+				    <option value="0">Hide</option>
+			    </field>
+				<field name="logo" type="media" default="" label="TPL_JAXSTORM-BLUE_FIELD_LOGO_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_LOGO_DESC" />
+				<field name="sitetitle"  type="text" default="JaxStormBlue" label="TPL_JAXSTORM-BLUE_FIELD_SITETITLE_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SITETITLE_DESC" filter="string" />
+				<field name="sitedescription"  type="text" default="Designed by Hurricane Media" label="TPL_JAXSTORM-BLUE_FIELD_DESCRIPTION_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_DESCRIPTION_DESC" filter="string" />
+
+
+				<field type="spacer" name="slidespacer2" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESPACER2_LABEL" />
+				<field type="spacer" name="slidespacer3" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESPACER3_LABEL" />
+
+				<field name="slides" type="list" default="1" label="TPL_JAXSTORM-BLUE_FIELD_SLIDES_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDES_DESC">
+				    <option value="1">Show on all pages</option>
+				    <option value="2">Show only in position-15</option>
+				    <option value="0">Hide</option>
+			    </field>
+
+				<field name="slideseffect" type="list" default="0" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESEFFECT_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESEFFECT_DESC">
+				    <option value="0">Slide</option>
+				    <option value="1">Crossfade</option>
+			    </field>
+				
+				<field name="slidesimage1" type="media" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE1_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE1_DESC" />
+				<field name="slideslink1" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK1_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK1_DESC" filter="string" />
+				
+				<field name="slidesimage2" type="media" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE2_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE2_DESC" />
+				<field name="slideslink2" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK2_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK2_DESC" filter="string" />
+
+				<field name="slidesimage3" type="media" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE3_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE3_DESC" />
+				<field name="slideslink3" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK3_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK3_DESC" filter="string" />
+
+				<field name="slidesimage4" type="media" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE4_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE4_DESC" />
+				<field name="slideslink4" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK4_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK4_DESC" filter="string" />
+
+				<field name="slidesimage5" type="media" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE5_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE5_DESC" />
+				<field name="slideslink5" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK5_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK5_DESC" filter="string" />
+
+				<field name="slidesimage6" type="media" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE6_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESIMAGE6_DESC" />
+				<field name="slideslink6" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK6_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SLIDESLINK6_DESC" filter="string" />
+
+				<field type="spacer" name="slidespacer4" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESPACER4_LABEL" />
+				<field type="spacer" name="slidespacer5" label="TPL_JAXSTORM-BLUE_FIELD_SLIDESPACER5_LABEL" />
+
+				<field name="socialposition" type="list" default="1" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALPOSITION_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALPOSITION_DESC">
+				    <option value="0">Top navigation</option>
+				    <option value="1">Left menu</option>
+				    <option value="2">Right menu</option>				    
+			    </field>
+
+				<field name="socialicon1" type="list" default="1" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON1_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON1_DESC">
+				    <option value="0">--None--</option>
+				    <option value="1">FaceBook</option>
+				    <option value="2">Flickr</option>
+				    <option value="3">Google+</option>
+				    <option value="4">Instagram</option>
+				    <option value="5">LinkedIn</option>
+				    <option value="6">MySpace</option>
+				    <option value="7">Picasa</option>
+				    <option value="8">RSS</option>
+				    <option value="9">SoundCloud</option>
+				    <option value="10">Tumblr</option>
+				    <option value="11">Twitter</option>
+				    <option value="12">Vimeo</option>
+				    <option value="13">Youtube</option>
+			    </field>
+			    <field name="sociallink1" type="text" default="http://www.facebook.com/" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK1_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK1_DESC" filter="string" />
+
+				<field name="socialicon2" type="list" default="11" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON2_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON2_DESC">
+				    <option value="0">--None--</option>
+				    <option value="1">FaceBook</option>
+				    <option value="2">Flickr</option>
+				    <option value="3">Google+</option>
+				    <option value="4">Instagram</option>
+				    <option value="5">LinkedIn</option>
+				    <option value="6">MySpace</option>
+				    <option value="7">Picasa</option>
+				    <option value="8">RSS</option>
+				    <option value="9">SoundCloud</option>
+				    <option value="10">Tumblr</option>
+				    <option value="11">Twitter</option>
+				    <option value="12">Vimeo</option>
+				    <option value="13">Youtube</option>
+			    </field>
+			    <field name="sociallink2" type="text" default="http://twitter.com/" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK2_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK2_DESC" filter="string" />
+
+				<field name="socialicon3" type="list" default="3" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON3_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON3_DESC">
+				    <option value="0">--None--</option>
+				    <option value="1">FaceBook</option>
+				    <option value="2">Flickr</option>
+				    <option value="3">Google+</option>
+				    <option value="4">Instagram</option>
+				    <option value="5">LinkedIn</option>
+				    <option value="6">MySpace</option>
+				    <option value="7">Picasa</option>
+				    <option value="8">RSS</option>
+				    <option value="9">SoundCloud</option>
+				    <option value="10">Tumblr</option>
+				    <option value="11">Twitter</option>
+				    <option value="12">Vimeo</option>
+				    <option value="13">Youtube</option>
+			    </field>
+			    <field name="sociallink3" type="text" default="http://plus.google.com" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK3_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK3_DESC" filter="string" />
+
+				<field name="socialicon4" type="list" default="0" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON4_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON4_DESC">
+				    <option value="0">--None--</option>
+				    <option value="1">FaceBook</option>
+				    <option value="2">Flickr</option>
+				    <option value="3">Google+</option>
+				    <option value="4">Instagram</option>
+				    <option value="5">LinkedIn</option>
+				    <option value="6">MySpace</option>
+				    <option value="7">Picasa</option>
+				    <option value="8">RSS</option>
+				    <option value="9">SoundCloud</option>
+				    <option value="10">Tumblr</option>
+				    <option value="11">Twitter</option>
+				    <option value="12">Vimeo</option>
+				    <option value="13">Youtube</option>
+			    </field>
+			    <field name="sociallink4" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK4_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK4_DESC" filter="string" />
+				
+
+				<field name="socialicon5" type="list" default="0" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON5_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALICON5_DESC">
+				    <option value="0">--None--</option>
+				    <option value="1">FaceBook</option>
+				    <option value="2">Flickr</option>
+				    <option value="3">Google+</option>
+				    <option value="4">Instagram</option>
+				    <option value="5">LinkedIn</option>
+				    <option value="6">MySpace</option>
+				    <option value="7">Picasa</option>
+				    <option value="8">RSS</option>
+				    <option value="9">SoundCloud</option>
+				    <option value="10">Tumblr</option>
+				    <option value="11">Twitter</option>
+				    <option value="12">Vimeo</option>
+				    <option value="13">Youtube</option>
+			    </field>
+			    <field name="sociallink5" type="text" default="" label="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK5_LABEL" description="TPL_JAXSTORM-BLUE_FIELD_SOCIALLINK5_DESC" filter="string" />
+
+			</fieldset>
+		</fields>
+	</config>	
+	
+</extension>
