@@ -2133,7 +2133,7 @@ pre {
     width: 19%;
 }
 #content-menu_wrap_bg, #header_wrap, #footer_wrap, #box_wrap, #wrapper {
-    min-width: 768px;
+/*    min-width: 768px;*/
 }
 #footer {
     width: auto;
